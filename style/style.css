@@ -651,6 +651,7 @@ footer {
 .join-us-main {
   display: flex;
   align-items: baseline;
+  justify-content: center;
 }
 
 .joinus-middle {
@@ -834,9 +835,7 @@ footer {
 
 .email-button-part {
   display: flex;
-}
-
-.email-button-part {
+  align-items: center;
   margin-top: 20px;
 }
 
@@ -846,18 +845,18 @@ footer {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  padding: 15px 295px 15px 16px;
+  padding-left: 20px;
   background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.3);
   transition: background-color, border-color, box-shadow;
   transition-duration: var(--transition--250ms--);
   transition-timing-function: var(--cubic-bezier--);
+  color: rgba(255, 255, 255, 0.6);
+  outline: none;
 }
 
-.mail-input:hover,
-.mail-input:focus {
+.mail-input:hover {
   border-color: var(--web-hover-button-up-down);
-  color: #2196f3;
+  outline: none;
 }
 
 .submit-btn {
@@ -874,4 +873,10 @@ footer {
   align-items: center;
   border: none;
   box-sizing: border-box;
+}
+
+.submit-btn:hover,
+.submit-btn:focus,
+.submit-btn:active {
+  background-color: var(--header-button-active);
 }
