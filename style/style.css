@@ -817,3 +817,61 @@ footer {
 .gallery-link:focus .overlay {
   transform: translateY(0%);
 }
+
+/* subscription part lower section - page index  */
+
+.subscription-main {
+  margin-left: 93px;
+}
+
+.second-part {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: var(--main-white-color-h);
+}
+
+.email-button-part {
+  display: flex;
+}
+
+.email-button-part {
+  margin-top: 20px;
+}
+
+.mail-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding: 15px 295px 15px 16px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: background-color, border-color, box-shadow;
+  transition-duration: var(--transition--250ms--);
+  transition-timing-function: var(--cubic-bezier--);
+}
+
+.mail-input:hover,
+.mail-input:focus {
+  border-color: var(--web-hover-button-up-down);
+  color: #2196f3;
+}
+
+.submit-btn {
+  display: flex;
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+  background: var(--web-hover-button-up-down);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  align-items: center;
+  padding: 10px 28px;
+  cursor: pointer;
+  align-items: center;
+  border: none;
+  box-sizing: border-box;
+}
