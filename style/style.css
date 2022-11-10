@@ -880,3 +880,59 @@ footer {
 .submit-btn:active {
   background-color: var(--header-button-active);
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px 40px 0 40px;
+  gap: 10px;
+}
+
+.text-inside-modal {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  text-align: center;
+  padding: 40px 40px 0 40px;
+  color: #212121;
+}
+
+.text-above {
+  display: flex;
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  letter-spacing: 0.01em;
+  color: var(--nav-address-email-phone-p-);
+}
+
+.size-input {
+  width: 448px;
+  height: 40px;
+  margin-top: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  display: flex;
+  background-repeat: no-repeat;
+}
+
+.size-input-feedback {
+  width: 448px;
+  height: 120px;
+  margin-top: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  display: flex;
+}
+
+.asd {
+  display: flex;
+}
+
+::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
