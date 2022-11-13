@@ -936,6 +936,7 @@ footer {
   line-height: calc(23 / 20);
   padding: 40px 40px 0 40px;
   color: #212121;
+  margin-bottom: 12px;
 }
 
 .text-above {
@@ -943,6 +944,7 @@ footer {
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
   color: var(--nav-address-email-phone-p-);
+  margin-bottom: 4px;
 }
 
 .size-input-feedback {
