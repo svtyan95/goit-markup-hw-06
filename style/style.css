@@ -850,11 +850,12 @@ footer {
   transition: background-color, border-color, box-shadow;
   transition-duration: var(--transition--250ms--);
   transition-timing-function: var(--cubic-bezier--);
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--portfolio-bottons-color);
   outline: none;
 }
 
-.mail-input:hover {
+.mail-input:hover,
+.mail-input:focus {
   border-color: var(--web-hover-button-up-down);
   outline: none;
 }
