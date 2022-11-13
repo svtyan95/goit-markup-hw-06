@@ -883,11 +883,20 @@ footer {
 
 .form-filed {
   position: relative;
+  transition: color, fill;
+  transition-duration: var(--transition--250ms--);
+  transition-timing-function: var(--cubic-bezier--);
 }
 
 .modal-form {
   flex-direction: column;
   margin: 12px 40px 20px 40px;
+}
+
+.form-comement {
+  transition: color, fill;
+  transition-duration: var(--transition--250ms--);
+  transition-timing-function: var(--cubic-bezier--);
 }
 
 .size-input {
@@ -899,6 +908,7 @@ footer {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   position: relative;
+  cursor: pointer;
 }
 
 .input-icon {
@@ -942,6 +952,7 @@ footer {
   border-radius: 4px;
   padding: 12px 12px;
   resize: none;
+  cursor: pointer;
 }
 
 ::placeholder {
@@ -973,6 +984,7 @@ footer {
   border-radius: 4px;
   border-color: transparent;
   display: block;
+  cursor: pointer;
 }
 
 .policy-text {
@@ -988,7 +1000,7 @@ footer {
   line-height: calc(24 / 14);
   color: var(--web-hover-button-up-down);
   text-decoration: underline;
-  margin-left: 1px;
+  margin-left: 5px;
 }
 
 .text-btn-modal {
@@ -1033,7 +1045,8 @@ footer {
 }
 
 .hov-for-input:hover,
-.hov-for-input:focus {
+.hov-for-input:focus,
+.hov-for-input:visited {
   fill: var(--web-hover-button-up-down);
   border-color: var(--web-hover-button-up-down);
   outline-color: var(--web-hover-button-up-down);
